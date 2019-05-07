@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background: #e84118;
+}
+
+.search-box{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	background: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+.search-box:hover > .text-input{
+	padding: 0 6px;
+	width: 600px;
+}
+
+.form:hover > .submit-input{
+	background: white;
+}
+
+.submit-input{
+	border: none;
+	background: #2f3640;
+	width: 200px;
+	height: 60px;
+	border-radius: 40px;
+	outline: none;
+	padding: 0px;
+	position: absolute;
+	top: 45.4%;
+	left: 68%;
+	color: #e84118;
+	font-size: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 500;
+}
+
+.text-input{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0px;
+	color: white;
+	font-size: 20px;
+	line-height: 40px;
+	width: 600px;
+}
